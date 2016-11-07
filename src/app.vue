@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>zero</h1>
-    <p>A vue project.</p>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,3 +9,9 @@
     name: 'app'
   };
 </script>
+
+<style>
+  h1 {
+    color: red;
+  }
+</style>
