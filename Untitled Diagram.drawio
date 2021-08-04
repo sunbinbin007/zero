@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T09:48:42.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="qTGBUAixsTafQ-bJPS-N" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-04T09:50:01.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="PEADshziLsQ6VVrK-saO" version="14.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1296" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,9 +46,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gjo73BtlxqJNmgAViUol-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gjo73BtlxqJNmgAViUol-12">
+        <mxCell id="Gjo73BtlxqJNmgAViUol-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gjo73BtlxqJNmgAViUol-12" target="Gjo73BtlxqJNmgAViUol-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="400" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Gjo73BtlxqJNmgAViUol-12" value="是否有相同配置已生成的头像&lt;br&gt;（spine资源链接和sskinlist）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -75,11 +78,12 @@
         <mxCell id="Gjo73BtlxqJNmgAViUol-19" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="380" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gjo73BtlxqJNmgAViUol-21" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="Gjo73BtlxqJNmgAViUol-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gjo73BtlxqJNmgAViUol-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="690" as="sourcePoint" />
             <mxPoint x="300" y="690" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="470" y="690" />
               <mxPoint x="380" y="690" />
             </Array>
           </mxGeometry>
@@ -99,25 +103,14 @@
         <mxCell id="Gjo73BtlxqJNmgAViUol-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gjo73BtlxqJNmgAViUol-27" target="Gjo73BtlxqJNmgAViUol-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gjo73BtlxqJNmgAViUol-27" value="avatar html 渲染生成截图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gjo73BtlxqJNmgAViUol-27" value="avatar html &lt;br&gt;渲染生成截图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Gjo73BtlxqJNmgAViUol-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gjo73BtlxqJNmgAViUol-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="690" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Gjo73BtlxqJNmgAViUol-28" value="上传七牛CDN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gjo73BtlxqJNmgAViUol-32" value="返回头像链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="700" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Gjo73BtlxqJNmgAViUol-33" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Gjo73BtlxqJNmgAViUol-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="400" as="sourcePoint" />
-            <mxPoint x="540" y="370" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Gjo73BtlxqJNmgAViUol-34" value="装扮过期时，自动生成头像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="180" width="120" height="60" as="geometry" />
